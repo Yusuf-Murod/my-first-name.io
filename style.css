@@ -1,0 +1,67 @@
+.block{
+    display: inline-flex;
+    grid-gap: 10px;
+}
+.contect{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 6px solid black;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    left: 100px;
+    
+}
+img{
+    margin-left: 25px;
+    margin-top: 15px;
+    transition: all 0.5 ease-in-out;
+}
+
+body{
+    background: grey;
+}
+
+.helo:hover{
+    transform: translatey(-10px);
+    border: 8px solid white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.705);
+    color: aqua;
+    background: #000;
+}
+
+.hello:hover{
+    transform: translatey(-10px);
+    border: 8px solid white; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.705);
+    color: aqua;
+    background: #000;
+}
+.hell:hover{
+    transform: translatey(-10px);
+    border: 6px solid white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.705);
+    color: aqua;
+    background: #000;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    transition: all 0.5s linear;
+}
+
+h1:hover{
+    transform: scale(1.1);
+    color:  aqua;;
+}
